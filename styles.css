@@ -1,0 +1,123 @@
+/* Globalstyles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and main section */
+h1, h2, h3 {
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Image and event section */
+.center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.center div {
+    width: 45%;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.center img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.center h2, .center h3 {
+    color: #fff;
+}
+
+.center a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+.center a:hover {
+    text-decoration: underline;
+}
+
+/* Footer section */
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2, footer h3, footer p {
+    margin: 5px 0;
+}
+
+/* Links section */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+table tr:nth-child(even) {
+    background-color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .center div {
+        width: 90%;
+    }
+
+    .center img {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    p {
+        width: 90%;
+    }
+}
